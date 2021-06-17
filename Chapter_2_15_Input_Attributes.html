@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Input Attributes</title>
+</head>
+<body>
+    <form autocomplete="off">
+        <!-- <label for="nameid">Name : </label> -->
+        <input type="text" name="name" id="nameid"
+        placeholder="Name :"
+        ><br>
+
+        <label>Age : &nbsp;&nbsp;&nbsp;</label>
+        <input type="number" name="age" id="" min="16" max="20"><br>
+   
+        <label>Password : </label>
+        <input type="password" name="password" 
+        id=""
+        minlength="10" maxlength="20"
+        ><br><br>
+        <input type="color" name="color" id="colorId">
+        <br>
+        <input type="checkbox" name="languages[]" 
+            id="" value="nodejs"><label>NodeJS</label><br>
+        <input type="checkbox" name="languages[]" 
+            id="" value="golang"><label>Golang</label><br>
+        <input type="checkbox" name="languages[]" 
+            id="" value="c+="><label>C++</label><br>
+        <br>
+        <input type="email" name="" id="" required>
+        <br>
+
+        <input type="date" name="brithday" id="">
+        <br>
+        <input type="datetime-local" name="" id="">
+        <br>
+        <input type="file" name="file[]" id="file" multiple>
+        <br>
+        <!-- <input type="image" src="./assets//images//bg.jpg" alt=""> -->
+        <br>
+        <input type="hidden" name="token" id="" value="#ASFFSDFSDreawefasdf">
+        <br>
+        <input type="month" name="" id="">
+        <br>
+        <input type="radio" name="gender" id="" value="male"> <label>Male</label><br>
+        <input type="radio" name="gender" id="" value="male"> <label>Female</label>
+        <br>
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
